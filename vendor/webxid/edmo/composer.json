@@ -1,0 +1,24 @@
+{
+  "name": "webxid/edmo",
+  "description": "EDMo - it is Entity Data Model (EDM) tool. No reflection or other extra things, which doesn't need to use in Live",
+  "keywords": [],
+  "homepage": "https://github.com/webxid/EDMo",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Pavlo M.",
+      "email": "webxid@ukr.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WebXID\\EDMo\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=8"
+  }
+}
